@@ -51,10 +51,10 @@
 		F74B03812C0E440700BF1106 /* YoloImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				F74B03822C0E440700BF1106 /* YoloImageRecognitionApp.swift */,
+				F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */,
 				F74B03862C0E440900BF1106 /* Assets.xcassets */,
 				F74B03882C0E440900BF1106 /* Preview Content */,
-				F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */,
+				F74B03822C0E440700BF1106 /* YoloImageRecognitionApp.swift */,
 			);
 			path = YoloImageRecognition;
 			sourceTree = "<group>";
