@@ -11,6 +11,7 @@
 		F74B03872C0E440900BF1106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74B03862C0E440900BF1106 /* Assets.xcassets */; };
 		F74B038A2C0E440900BF1106 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74B03892C0E440900BF1106 /* Preview Assets.xcassets */; };
 		F74B03912C0E448A00BF1106 /* ImageRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */; };
+		F74B03932C0E471600BF1106 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03922C0E471600BF1106 /* UIImage+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F74B03862C0E440900BF1106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74B03892C0E440900BF1106 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionView.swift; sourceTree = "<group>"; };
+		F74B03922C0E471600BF1106 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */,
+				F74B03922C0E471600BF1106 /* UIImage+Ext.swift */,
 				F74B03862C0E440900BF1106 /* Assets.xcassets */,
 				F74B03882C0E440900BF1106 /* Preview Content */,
 				F74B03822C0E440700BF1106 /* YoloImageRecognitionApp.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74B03932C0E471600BF1106 /* UIImage+Ext.swift in Sources */,
 				F74B03912C0E448A00BF1106 /* ImageRecognitionView.swift in Sources */,
 				F74B03832C0E440700BF1106 /* YoloImageRecognitionApp.swift in Sources */,
 			);

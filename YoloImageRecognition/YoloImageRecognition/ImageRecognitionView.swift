@@ -9,12 +9,13 @@ import SwiftUI
 import CoreML
 import PhotosUI
 
-@State private var probs: [String: Double] = [: ]
-@State private var uiImage: UIImage? = UIImage(named: "stop-sign")
-@State private var selectedPhotoItem: PhotosPickerItem? = nil
-@State private var isCameraSelected: Bool = false
-
 struct ImageRecognitionView: View {
+    
+    @State private var probs: [String: Double] = [: ]
+    @State private var uiImage: UIImage? = UIImage(named: "stop-sign")
+    @State private var selectedPhotoItem: PhotosPickerItem? = nil
+    @State private var isCameraSelected: Bool = false
+    
     var body: some View {
         VStack {
             Image(uiImage: uiImage!)
