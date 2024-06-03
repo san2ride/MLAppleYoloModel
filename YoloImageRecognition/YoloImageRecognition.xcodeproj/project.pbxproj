@@ -13,6 +13,7 @@
 		F74B03912C0E448A00BF1106 /* ImageRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */; };
 		F74B03932C0E471600BF1106 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03922C0E471600BF1106 /* UIImage+Ext.swift */; };
 		F74B03952C0E47F700BF1106 /* NumberFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03942C0E47F700BF1106 /* NumberFormatter+Ext.swift */; };
+		F74B03972C0E485500BF1106 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B03962C0E485500BF1106 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionView.swift; sourceTree = "<group>"; };
 		F74B03922C0E471600BF1106 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		F74B03942C0E47F700BF1106 /* NumberFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Ext.swift"; sourceTree = "<group>"; };
+		F74B03962C0E485500BF1106 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				F74B03902C0E448A00BF1106 /* ImageRecognitionView.swift */,
+				F74B03962C0E485500BF1106 /* ImagePicker.swift */,
 				F74B03942C0E47F700BF1106 /* NumberFormatter+Ext.swift */,
 				F74B03922C0E471600BF1106 /* UIImage+Ext.swift */,
 				F74B03862C0E440900BF1106 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				F74B03932C0E471600BF1106 /* UIImage+Ext.swift in Sources */,
 				F74B03952C0E47F700BF1106 /* NumberFormatter+Ext.swift in Sources */,
+				F74B03972C0E485500BF1106 /* ImagePicker.swift in Sources */,
 				F74B03912C0E448A00BF1106 /* ImageRecognitionView.swift in Sources */,
 				F74B03832C0E440700BF1106 /* YoloImageRecognitionApp.swift in Sources */,
 			);
